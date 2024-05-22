@@ -1,7 +1,7 @@
 # DataSmith
 
 ## Introduction
-DataSmith is a large model for generating json format data based on text content. DataSmith is a large model for generating json format data from text content. DataSmith-6B is a 6 billion parameter model, which is carried out by comprehensively planning relevant data (including selected news, encyclopedias, law, medicine, advertising, papers, books, novels, announcements and other general fields) For fine-tuning, start with a series of models adapted to the task.
+DataSmith is a large model designed to generate JSON-format data from textual content. The DataSmith-6B version, equipped with 6 billion parameters, is fine-tuned using a comprehensive selection of data sources, including news, encyclopedias, legal documents, medical records, advertising, academic papers, books, novels, and various public announcements. This model serves as the foundation for a series of task-specific adaptations.
 
 ## Models Available
 - DataSmith-6B
@@ -69,7 +69,7 @@ print(response)
 
 ```
 
-## DataSets
+## Datasets
 We use gpt-4 to generate training corpus by constructing prompt. If you need it, please contact us by email.
 
 ## Contributing
